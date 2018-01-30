@@ -53,6 +53,7 @@
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contactus.php">Contact us</a></li>
             <li class="active"><a href="#">About us</a></li>
+            <li><a href="queries.php">Queries</a></li>
           </ul>
 
         </div>

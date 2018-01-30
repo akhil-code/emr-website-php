@@ -61,6 +61,7 @@
             <li><a href="gallery.php">Gallery</a></li>
             <li class="active"><a href="#">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
+            <li><a href="queries.php">Queries</a></li>
           </ul>
 
         </div>

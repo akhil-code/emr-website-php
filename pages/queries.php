@@ -15,7 +15,7 @@
     <meta name="description" content=""/>
     <meta name="author" content="">
 
-    <title>EmR | Gallery</title>
+    <title>EmR | Queries</title>
     <link rel="icon" href="../img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
@@ -53,10 +53,10 @@
             <li><a href="dashboard.php">Home</a></li>
             <li><a href="positions.php">Projects</a></li>
             <li><a href="votersList.php">Workshops</a></li>
-            <li class="active"><a href="#">Gallery</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contactus.php">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
-            <li><a href="queries.php">Queries</a></li>
+            <li class="active"><a href="queries.php">Queries</a></li>
           </ul>
 
         </div>
@@ -66,52 +66,45 @@
     <br><br><br><br><br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <page>
-    not available yet
-  </page>
+        <div class="col-lg-4 col-lg-offset-4">
+          <div class="panel panel-default">
+            <div align="center" class="panel-heading">
+              <i class="fa fa-street-view fa-fw"></i><strong> Drop your query / feedback here</strong>
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
 
-  <message>
-    Site under construction
-  </message>
-</xmp>
-</span>
+              <div class="form-group input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-user"></i>
+                </span>
+                <input class="form-control" placeholder="Name" type="text">
+              </div>
 
-            <p>
-            </p>
+              <div class="form-group input-group">
+                <span class="input-group-addon">@</span>
+                <input class="form-control" placeholder="E-mail" type="text">
+              </div>
 
+              <div class="form-group input-group">
+                <span class="input-group-addon">
+                  <i class="fa fa-tty"></i>
+                </span>
+                <input class="form-control" placeholder="Mobile" type="text">
+              </div>
+
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="4"></textarea>
+              </div>
+
+              <a href="#" class="btn btn-success btn-block">Submit</a>
+            </div>
+            <!-- /.panel-body -->
           </div>
-        </div>
 
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <work>
-    under progress...... (-_-)
-  </work>
-
-  <to do>
-    please wait for some time :-)
-  </to do></xmp>
-</span>
-
-            <p>
-              <!-- <i class="fa fa-server fa-5x"></i> -->
-              <!-- <i class="fa fa-sign-language fa-5x"></i> -->
-              <!-- <i class="fa fa-television fa-5x"></i> -->
-              <!-- <i class="fa fa-wrench fa-5x"></i> -->
-              <!-- <i class="fa fa-wheelchair fa-5x"></i> -->
-              <!-- <i class="fa fa-send-o fa-5x"></i> -->
-            </p>
-
-          </div>
         </div>
       </div>
-
     </div>
 
 
