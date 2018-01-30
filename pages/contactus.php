@@ -55,9 +55,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="dashboard.php">Home</a></li>
-            <li><a href="positions.php">Projects</a></li>
-            <li><a href="votersList.php">Workshops</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="projects.php">Projects</a></li>
+            <li><a href="workshops.php">Workshops</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li class="active"><a href="#">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
