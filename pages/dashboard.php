@@ -1,9 +1,9 @@
 <?php
-  
+
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
-  
+
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <style>
       .huge{
-        font-size: 34px;
+        font-size: 22px;
       }
     </style>
   </head>
@@ -115,7 +115,7 @@
               </div>
               <!-- /.panel-body -->
           </div>
-          
+
         </div>
 
         <div class="col-lg-8 col-md-6">
@@ -130,8 +130,8 @@
                       <i class="fa fa-user fa-5x"></i>
                     </div>
                     <div class="col-xs-9 text-right">
-                      <div class="huge">26</div>
-                      <div>Voters List</div>
+                      <div class="huge">Akhil Guttula</div>
+                      <div>8950409998</div>
                     </div>
                   </div>
                 </div>
