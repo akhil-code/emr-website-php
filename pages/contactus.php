@@ -58,10 +58,11 @@
             <li><a href="dashboard.php">Home</a></li>
             <li><a href="positions.php">Projects</a></li>
             <li><a href="votersList.php">Workshops</a></li>
-            <li><a href="shareLink.php">Gallery</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
             <li class="active"><a href="#">Contact us</a></li>
-            <li><a href="viewGraphs.php">About us</a></li>
+            <li><a href="aboutus.php">About us</a></li>
           </ul>
+
         </div>
       </div>
     </nav>

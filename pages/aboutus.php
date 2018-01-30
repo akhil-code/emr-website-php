@@ -1,9 +1,9 @@
 <?php
-  
+
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
-  
+
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@
     <meta name="description" content=""/>
     <meta name="author" content="">
 
-    <title>NIT KKR's Voting System | Control</title>
+    <title>EmR | About us</title>
     <link rel="icon" href="../img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
@@ -24,13 +24,16 @@
     <link href="../css/stylish-portfolio.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <style>
-      .huge{
-        font-size: 34px;
+      .large{
+        font-size: 44px;
+      }
+      .medium{
+        font-size: 20px;
       }
     </style>
   </head>
 
-  <body style="background-color:#90EE90">
+  <body style="background-color:#bfbfbf">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <img align="left" style="margin-top:5px;margin-bottom:5px;margin-right:10px;" src="../img/icon.png" alt="logo" height="42" width="42">
@@ -40,85 +43,45 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="dashboard.php" style="color:white;margin-right:30px;">Dashboard</a>
+          <a class="navbar-brand" href="dashboard.php" style="color:white;margin-right:30px;">EmR Club</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="dashboard.php">Home</a></li>
-            <li><a href="positions.php">Positions</a></li>
-            <li><a href="votersList.php">Voters</a></li>
-            <li><a href="nominees.php">Nominees</a></li>
-            <li><a href="shareLink.php">Share</a></li>
-            <li><a href="viewGraphs.php">View</a></li>
-            <li class="active"><a href="">Control</a></li>
+            <li><a href="positions.php">Projects</a></li>
+            <li><a href="votersList.php">Workshops</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="contactus.php">Contact us</a></li>
+            <li class="active"><a href="#">About us</a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="adminLogin.php"><span class="fa fa-user-times"></span>  Log out</a></li>
-          </ul>
         </div>
       </div>
     </nav>
 
-    <br><br><br><br>
+    <br><br><br>
     <div class="container">
-
       <div class="row">
-          <!-- panel starting -->
-            <div class="col-lg-4 col-lg-offset-4">
-              <div class="panel panel-primary">
-                <div class="panel-heading">
-                  <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-check fa-5x"></i>
-                    </div>
-                    <div class="col-xs-9 text-right">
-                      <div class="huge">ON</div>
-                      <div>Voting Status</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="panel-footer">
-                  <button type="button" class="btn btn-success btn-xs"><span class="pull-left">on <i class="fa fa-check"></i></span></button>
-                  <span class="pull-right">
-                    <button type="button pull-right" class="btn btn-danger btn-xs"><span>off <i class="fa fa-times"></i></span></button>
-                  </span>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <!-- panel ending -->
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-4">
-          <div class="panel panel-default">
-              <div class="panel-heading">
-                <i class="fa fa-clock-o fa-fw"></i> Timeline
-              </div>
-              <!-- /.panel-heading -->
-              <div class="panel-body">
-                <div class="list-group">
-                  <a href="#" class="list-group-item">
-                    <i class="fa fa-calendar-plus-o fa-fw"></i> Created on
-                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                    </span>
-                  </a>
-                  <a href="#" class="list-group-item">
-                    <i class="fa fa-check-circle fa-fw"></i> Started on
-                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                    </span>
-                  </a>
-                  <a href="#" class="list-group-item">
-                    <i class="fa fa-times-circle fa-fw"></i> Will end on
-                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                    </span>
-                  </a>
-                </div>
-                <!-- /.list-group -->
-                <a href="#" class="btn btn-danger btn-block">Delete Account</a>
-              </div>
-              <!-- /.panel-body -->
+        <div class="col-lg-7">
+          <div class="jumbotron">
+            <h1>About us</h1>
+            <span class="medium">Embedded Systems & Robotics Club, NIT Kurukshetra is an earnest endeavour in the automata domain. The brainchild of a diligent student fraternity, the club aims to elevate the standards of the institute by pioneering quality learning and guidance in the field of robotics. A huge student community fancies the world of robotics and the club aids this materialization. The salient feature of the club is that it aims at evolving the seeds of knowledge in this novice chunk, nurturing them into future technocrats. The club welcomes all those with a spark, who crave to dig into this vast promising realm, and ensures a 24×7 lucid mentorship
+            </span>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="jumbotron">
+            <!-- <span class="large">Mission</span><br> -->
+            <h1>Mission</h1>
+            <span class="medium">
+              The increasing economic growth and competition in the global market lead the public and private sectors to seek innovation in the field of engineering and technology. In this scenario club effort is orient towards providing the common platform for the knowledge and opportunity to implement the innovative ideas.
+            </span>
+            <br><br><br>
+            <p>
+              <strong>
+                “Engineering Education should orient towards Innovation” is our <i>Vision</i>.
+              </strong>
+            </p>
           </div>
 
         </div>
@@ -132,8 +95,8 @@
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
             <hr class="small"/>
-            <p class="text-muted"><xmp><develop> Ag </design></xmp></p>
-            <!-- <p class="text-muted" style="color:black;">Copyright &copy; Akhil Guttula</p> -->
+            <p class="text-muted" style="color:black;">&copy; Embedded Systems & Robotics Club, NIT Kurukshetra 2018</p>
+            <p class="text-muted"><xmp><develop> MMSK Ag </design></xmp></p>
           </div>
         </div>
       </div>
