@@ -108,7 +108,7 @@
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
-                  <img src="../img/projects/neuralNetworks1.png" class="img-rounded img-responsive" alt="image">
+                  <img src="../img/projects/neuralNetworks.png" class="img-rounded img-responsive" alt="image">
                 </div>
                 <div class="col-lg-12">
                 </div>
@@ -268,7 +268,7 @@
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
-                  <img src="../img/projects/accelerometer.jpeg" class="img-rounded img-responsive" alt="image">
+                  <img src="../img/projects/accelerometer.jpg" class="img-rounded img-responsive" alt="image">
                 </div>
                 <div class="col-lg-12">
                 </div>
