@@ -26,13 +26,18 @@
     <style>
       @media screen and (min-width:100px) {
           .medium{ font-size:100%; }
+          .large{ font-size:125%; font-weight: bold;}
+          .primary-text{ font-size:200%; font-weight: bold;}
+          .secondary-text{ font-size:100%; }
+
       }
       @media screen and (min-width:900px) {
           .medium{ font-size:150%; }
+          .large{ font-size:200%; }
+          .primary-text{ font-size:300%; font-weight: bold;}
+          .secondary-text{ font-size:110%; }
       }
-      .medium{
-        font-weight: bold;
-      }
+
     </style>
   </head>
 
@@ -63,218 +68,246 @@
       </div>
     </nav>
 
-    <br><br><br><br>
+    <br><br><br>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+          <p class="primary-text" align="center">Projects</p>
+          <span class="secondary-text">'Club has undertaken several  innovative embedded & software projects which has not only won awards but also came in the light of electronics core companies'</span>
+          <hr class="large"/>
+        </div>
+      </div>
+
+      <!-- row 1 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <div class="jumbotron">
-                <h1>Projects</h1>
-                <p>Club has undertaken several  innovative embedded & software projects which has not only won awards but also came in the light of electronics core companies.</p>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/smartIrrigationSystem.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
               </div>
             </div>
-            <div class="panel-body">
-              <ul class="list-group">
-
-               <!-- project 1 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Dual Mode Robot</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 2 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Low Cost Intelligent Irrigation System (University Design Contest’15 First Prize)</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 3 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Digital Neural Network used for Handwriting Recognition</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 4 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Grid Solver</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 5 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Maze Solver</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 6 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Gesture Recognition</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 7 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Apexo eventIIT Bombay Techfest </h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 8 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Pulse Rate Calculator</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 9 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>Accelerometer based Wireless Robot</h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-               <!-- project 10 -->
-               <li class="list-group-item">
-                 <div class="row">
-                   <br>
-                   <div class="col-lg-4 col-lg-offset-1">
-                     <br>
-                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
-                   </div>
-                   <div class="col-lg-5 col-lg-offset-1">
-                     <h2>e-Yantra’16 IIT Bombay Runner up  </h2>
-                     <span class="project-content">
-                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
-                     </span><br><br>
-                     <a class="btn btn-primary" href="#">View Project</a>
-                   </div>
-                 </div>
-                 <br>
-               </li>
-
-
-              </ul>
-
-
-
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Low Cost Intelligent Irrigation System</strong></span>
+              <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
             </div>
           </div>
         </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 2-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/neuralNetworks1.png" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Digital Neural Network</strong></span>
+              <span class="pull-left"><strong>used for Handwriting Recognition</strong></span>
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 3-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/dualModeRobot.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Dual Mode Robot</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+      <!-- row 2 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/gridSolver.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Grid Solver</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 2-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/mazeSolver.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Maze Solver</strong></span>
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 3-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/gestureControl.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Gesture Recognition</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+
+      <!-- row 3 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/techfest.png" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Apexo event IIT Bombay Techfest</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 2-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/pulseRate.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Pulse Rate Calculator</strong></span>
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 3-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/accelerometer.jpeg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Accelerometer based Wireless Robot</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+      <!-- row 4 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4 col-lg-offset-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/eyantra.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>e-Yantra’16 IIT Bombay Runner up</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
       </div>
 
     </div>

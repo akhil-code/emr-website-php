@@ -89,7 +89,7 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-danger">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
                     <div class="col-lg-6">
@@ -115,7 +115,7 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-success">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
                     <div class="col-lg-6">
@@ -146,7 +146,7 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-info">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
                     <div class="col-lg-6">
@@ -172,7 +172,7 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-warning">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
                     <div class="col-lg-6">
@@ -203,7 +203,7 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-success">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
                     <div class="col-lg-6">
@@ -334,6 +334,18 @@
                         <div class="col-lg-6">
                           <div class="list-group">
                             <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Deepak Birwal
+                              <span class="pull-right text-muted small">
+                                <em>8818000660</em>
+                              </span>
+                            </div>
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Ashesh Pandey
+                              <span class="pull-right text-muted small">
+                                <em>9728427367</em>
+                              </span>
+                            </div>
+                            <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Sonali Kashyap
                               <span class="pull-right text-muted small">
                                 <!-- <em>9728430368</em> -->
@@ -358,18 +370,7 @@
                               </span>
                             </div>
 
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Deepak Birwal
-                              <span class="pull-right text-muted small">
-                                <em>8818000660</em>
-                              </span>
-                            </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Ashesh Pandey
-                              <span class="pull-right text-muted small">
-                                <em>9728427367</em>
-                              </span>
-                            </div>
+
                           </div>
 
                           <!-- /.list-group -->

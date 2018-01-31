@@ -26,10 +26,16 @@
     <style>
       @media screen and (min-width:100px) {
           .medium{ font-size:100%; }
+          .large{ font-size:125%; font-weight: bold;}
+          .primary-text{ font-size:200%; font-weight: bold;}
+
       }
       @media screen and (min-width:900px) {
           .medium{ font-size:150%; }
+          .large{ font-size:200%; }
+          .primary-text{ font-size:300%; font-weight: bold;}
       }
+
       .medium{
         font-weight: bold;
       }
@@ -57,64 +63,97 @@
             <li><a href="contactus.php">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
             <li><a href="queries.php">Queries / Feedback</a></li>
-
           </ul>
 
         </div>
       </div>
     </nav>
 
-    <br><br><br><br><br>
+    <br><br><br><br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <page>
-    not available yet
-  </page>
-
-  <message>
-    Site under construction
-  </message>
-</xmp>
-</span>
-
-            <p>
-            </p>
-
-          </div>
+        <div class="col-lg-12">
+          <p class="primary-text" align="center">Gallery</p>
+          <hr class="large"/>
         </div>
-
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <work>
-    under progress...... (-_-)
-  </work>
-
-  <to do>
-    please wait for some time :-)
-  </to do></xmp>
-</span>
-
-            <p>
-              <!-- <i class="fa fa-server fa-5x"></i> -->
-              <!-- <i class="fa fa-sign-language fa-5x"></i> -->
-              <!-- <i class="fa fa-television fa-5x"></i> -->
-              <!-- <i class="fa fa-wrench fa-5x"></i> -->
-              <!-- <i class="fa fa-wheelchair fa-5x"></i> -->
-              <!-- <i class="fa fa-send-o fa-5x"></i> -->
-            </p>
-
-          </div>
-        </div>
+        <hr>
       </div>
 
-    </div>
 
+      <div class="row">
+
+        <!-- panel starting -->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/gallery/covers/cover1.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>ST Microelctronics</strong></span>
+              <span class="pull-left"><strong>University Design Championship’15</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting -->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/gallery/covers/cover2.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Robotics Workshop 5.0</strong></span>
+              <span class="pull-left"><strong>Accelerometer controlled robot</strong></span>
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting -->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/gallery/covers/cover3.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Science Innovation Exhibition</strong></span>
+              <span class="pull-left"><strong>Dr. APJ Abdul Kalam visit to NITK</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+
+
+    </div>
 
     <footer>
       <div class="container">
