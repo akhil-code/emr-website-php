@@ -53,7 +53,8 @@
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contactus.php">Contact us</a></li>
             <li class="active"><a href="#">About us</a></li>
-            <li><a href="queries.php">Queries</a></li>
+            <li><a href="queries.php">Queries / Feedback</a></li>
+
           </ul>
 
         </div>
@@ -97,7 +98,7 @@
           <div class="col-lg-10 col-lg-offset-1 text-center">
             <hr class="small"/>
             <p class="text-muted" style="color:black;">&copy; Embedded Systems & Robotics Club, NIT Kurukshetra 2018</p>
-            <p class="text-muted"><xmp><develop> MMSK Ag </design></xmp></p>
+            <p class="text-muted"><xmp><develop> Ag MMSK </design></xmp></p>
           </div>
         </div>
       </div>

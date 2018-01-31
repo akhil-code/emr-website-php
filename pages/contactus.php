@@ -61,7 +61,8 @@
             <li><a href="gallery.php">Gallery</a></li>
             <li class="active"><a href="#">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
-            <li><a href="queries.php">Queries</a></li>
+            <li><a href="queries.php">Queries / Feedback</a></li>
+
           </ul>
 
         </div>
@@ -267,6 +268,7 @@
                     </div>
                     <div class="panel-footer">
                       <div class="clearfix"></div>
+                      <br>
                       <div class="row">
                         <div class="col-lg-6">
                           <div class="list-group">
@@ -282,41 +284,13 @@
                                 <em>8950444204</em>
                               </span>
                             </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Sonali Kashyap
-                              <span class="pull-right text-muted small">
-                                <em>9728430368</em>
-                              </span>
-                            </div>
+
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Mukesh Agrawal
                               <span class="pull-right text-muted small">
                                 <em>9541890682</em>
                               </span>
                             </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Ruby
-                              <span class="pull-right text-muted small">
-                                <em>7206326309</em>
-                              </span>
-                            </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Shraddha
-                              <span class="pull-right text-muted small">
-                                <em>9492415902</em>
-                              </span>
-                            </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Ashesh Pandey
-                              <span class="pull-right text-muted small">
-                                <em>9728427367</em>
-                              </span>
-                            </div>
-                          </div>
-                          <!-- /.list-group -->
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="list-group">
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Pankaj
                               <span class="pull-right text-muted small">
@@ -335,25 +309,59 @@
                                 <em>9728431246</em>
                               </span>
                             </div>
+
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Sai Mohan
                               <span class="pull-right text-muted small">
                                 <em>9729012714</em>
                               </span>
                             </div>
+
+
+                          </div>
+                          <!-- /.list-group -->
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="list-group">
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Sonali Kashyap
+                              <span class="pull-right text-muted small">
+                                <!-- <em>9728430368</em> -->
+                              </span>
+                            </div>
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Prachi
                               <span class="pull-right text-muted small">
-                                <em>9728431605</em>
+                                <!-- <em>9728431605</em> -->
                               </span>
                             </div>
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Ruby
+                              <span class="pull-right text-muted small">
+                                <!-- <em>7206326309</em> -->
+                              </span>
+                            </div>
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Shraddha
+                              <span class="pull-right text-muted small">
+                                <!-- <em>9492415902</em> -->
+                              </span>
+                            </div>
+
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Deepak Birwal
                               <span class="pull-right text-muted small">
                                 <em>8818000660</em>
                               </span>
                             </div>
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Ashesh Pandey
+                              <span class="pull-right text-muted small">
+                                <em>9728427367</em>
+                              </span>
+                            </div>
                           </div>
+
                           <!-- /.list-group -->
                         </div>
                       </div>
@@ -378,7 +386,7 @@
           <div class="col-lg-10 col-lg-offset-1 text-center">
             <hr class="small"/>
             <p class="text-muted" style="color:black;">&copy; Embedded Systems & Robotics Club, NIT Kurukshetra 2018</p>
-            <p class="text-muted"><xmp><develop> MMSK Ag </design></xmp></p>
+            <p class="text-muted"><xmp><develop> Ag MMSK </design></xmp></p>
           </div>
         </div>
       </div>
