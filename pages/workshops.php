@@ -26,13 +26,18 @@
     <style>
       @media screen and (min-width:100px) {
           .medium{ font-size:100%; }
+          .large{ font-size:125%; font-weight: bold;}
+          .primary-text{ font-size:200%; font-weight: bold;}
+          .secondary-text{ font-size:100%; }
+
       }
       @media screen and (min-width:900px) {
           .medium{ font-size:150%; }
+          .large{ font-size:200%; }
+          .primary-text{ font-size:300%; font-weight: bold;}
+          .secondary-text{ font-size:110%; }
       }
-      .medium{
-        font-weight: bold;
-      }
+
     </style>
   </head>
 
@@ -63,57 +68,155 @@
       </div>
     </nav>
 
-    <br><br><br><br><br>
+    <br><br><br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <page>
-    not available yet
-  </page>
-
-  <message>
-    Site under construction
-  </message>
-</xmp>
-</span>
-
-            <p>
-            </p>
-
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <work>
-    under progress...... (-_-)
-  </work>
-
-  <to do>
-    please wait for some time :-)
-  </to do></xmp>
-</span>
-
-            <p>
-              <!-- <i class="fa fa-server fa-5x"></i> -->
-              <!-- <i class="fa fa-sign-language fa-5x"></i> -->
-              <!-- <i class="fa fa-television fa-5x"></i> -->
-              <!-- <i class="fa fa-wrench fa-5x"></i> -->
-              <!-- <i class="fa fa-wheelchair fa-5x"></i> -->
-              <!-- <i class="fa fa-send-o fa-5x"></i> -->
-            </p>
-
-          </div>
+        <div class="col-lg-12">
+          <p class="primary-text" align="center">Workshops</p>
+          <p class="secondary-text" align="center">'We organise workshops through out the academic session in spreading knowledge in various domains'</p>
+          <hr class="large"/>
         </div>
       </div>
 
-    </div>
+      <!-- row 1 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/workshops//lineFollower.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Autonomous Line Follower Robot</strong></span>
+              <!-- <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span> -->
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
 
+        <!-- panel starting project 2-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/projects/gestureControl.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Gesture Controlled Robot</strong></span>
+              <!-- <span class="pull-left"><strong>used for Handwriting Recognition</strong></span> -->
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 3-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/workshops/pcbDesigning.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>PCB Designing</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+      <!-- row 2 -->
+      <div class="row">
+        <!-- panel starting project 1-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/workshops/imageProcessing1.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Digital Image Processing</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 2-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/workshops/iot.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Internet of Things</strong></span>
+
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+        <!-- panel starting project 3-->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/workshops/verilog.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Verilog HDL</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+      </div>
+
+    </div>
 
     <footer>
       <div class="container">
