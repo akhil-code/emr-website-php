@@ -24,6 +24,20 @@
     <link href="../css/stylish-portfolio.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <style>
+      @media screen and (min-width:100px) {
+          .huge{ font-size:200%; }
+          .medium{ font-size:130%; }
+      }
+      @media screen and (min-width:900px) {
+          .huge{ font-size:400%; }
+          .medium{ font-size:150%; }
+      }
+
+      /*.pics{
+        width: 100%;
+        height: 100%;
+      }*/
+
       .mega{
         font-size: 34px;
         font-weight: bold;
@@ -32,12 +46,7 @@
         font-size: 20px;
         font-weight: bold;
       }
-      .medium{
-        font-size: 14px;
-      }
-      .small{
-        font-size: 12px;
-      }
+
     </style>
   </head>
 
@@ -51,7 +60,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="dashboard.php" style="color:white;margin-right:30px;">EmR Club</a>
+          <a class="navbar-brand" href="../index.php" style="color:white;margin-right:30px;">EmR Club</a>
+
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -79,13 +89,13 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-danger">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                       <img src="../img/people/abhishek.jpg" class="img-rounded img-responsive" alt="abhishek">
                     </div>
-                    <div class="col-xs-9 text-right">
+                    <div class="col-lg-6 text-right">
                       <div class="huge">Abhishek</div>
                       <div>President</div>
                     </div>
@@ -105,14 +115,14 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-success">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                       <img src="../img/people/akhil.jpg" class="img-rounded img-responsive" alt="akhil">
                     </div>
-                    <div class="col-xs-9 text-right">
-                      <div class="huge">Akhil Guttula</div>
+                    <div class="col-lg-6 text-right">
+                      <div class="huge">Akhil</div>
                       <div>Vice President</div>
                     </div>
                   </div>
@@ -136,13 +146,13 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-info">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                      <img src="../img/people/jindal.jpg" class="img-rounded img-responsive" alt="jindal">
                     </div>
-                    <div class="col-xs-9 text-right">
+                    <div class="col-lg-6 text-right">
                       <div class="huge">Himanshu Jindal</div>
                       <div>Secretary</div>
                     </div>
@@ -162,13 +172,13 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-warning">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                      <img src="../img/people/charan.jpg" class="img-rounded img-responsive" alt="charan">
                     </div>
-                    <div class="col-xs-9 text-right">
+                    <div class="col-lg-6 text-right">
                       <div class="huge">Sai Charan</div>
                       <div>Joint Secretary</div>
                     </div>
@@ -193,14 +203,14 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-success">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                      <img src="../img/people/akanksha.jpg" class="img-rounded img-responsive" alt="shukla">
                     </div>
-                    <div class="col-xs-9 text-right">
-                      <div class="huge">Akansksha Shukla</div>
+                    <div class="col-xs-6 text-right">
+                      <div class="huge">Akanksha Shukla</div>
                       <div>Girl's Representative</div>
                     </div>
                   </div>
@@ -219,13 +229,13 @@
 
             <!-- panel starting -->
             <div class="col-lg-6 col-md-6">
-              <div class="panel panel-primary">
+              <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
-                    <div class="col-xs-3">
-                      <i class="fa fa-user fa-5x"></i>
+                    <div class="col-lg-6">
+                      <img src="../img/people/gopal.jpg" class="img-rounded img-responsive" alt="gopal">
                     </div>
-                    <div class="col-xs-9 text-right">
+                    <div class="col-lg-6 text-right">
                       <div class="huge">D Sai Gopal </div>
                       <div>Technical Head</div>
                     </div>

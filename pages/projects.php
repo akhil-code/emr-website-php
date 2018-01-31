@@ -46,7 +46,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="dashboard.php" style="color:white;margin-right:30px;">EmR Club</a>
+          <a class="navbar-brand" href="../index.php" style="color:white;margin-right:30px;">EmR Club</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -63,57 +63,221 @@
       </div>
     </nav>
 
-    <br><br><br><br><br>
+    <br><br><br><br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <page>
-    not available yet
-  </page>
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="jumbotron">
+                <h1>Projects</h1>
+                <p>Club has undertaken several  innovative embedded & software projects which has not only won awards but also came in the light of electronics core companies.</p>
+              </div>
+            </div>
+            <div class="panel-body">
+              <ul class="list-group">
 
-  <message>
-    Site under construction
-  </message>
-</xmp>
-</span>
+               <!-- project 1 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Dual Mode Robot</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
-            <p>
-            </p>
+               <!-- project 2 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Low Cost Intelligent Irrigation System (University Design Contest’15 First Prize)</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
-          </div>
-        </div>
+               <!-- project 3 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Digital Neural Network used for Handwriting Recognition</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
-        <div class="col-lg-6">
-          <div class="jumbotron">
-<span class="medium">
-<xmp>
-  <work>
-    under progress...... (-_-)
-  </work>
+               <!-- project 4 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Grid Solver</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
-  <to do>
-    please wait for some time :-)
-  </to do></xmp>
-</span>
+               <!-- project 5 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Maze Solver</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
-            <p>
-              <!-- <i class="fa fa-server fa-5x"></i> -->
-              <!-- <i class="fa fa-sign-language fa-5x"></i> -->
-              <!-- <i class="fa fa-television fa-5x"></i> -->
-              <!-- <i class="fa fa-wrench fa-5x"></i> -->
-              <!-- <i class="fa fa-wheelchair fa-5x"></i> -->
-              <!-- <i class="fa fa-send-o fa-5x"></i> -->
-            </p>
+               <!-- project 6 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Gesture Recognition</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
 
+               <!-- project 7 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Apexo eventIIT Bombay Techfest </h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
+
+               <!-- project 8 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Pulse Rate Calculator</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
+
+               <!-- project 9 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>Accelerometer based Wireless Robot</h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
+
+               <!-- project 10 -->
+               <li class="list-group-item">
+                 <div class="row">
+                   <br>
+                   <div class="col-lg-4 col-lg-offset-1">
+                     <br>
+                     <img src="../img/carouselPics/4.jpg" class="img-rounded img-responsive" alt="image">
+                   </div>
+                   <div class="col-lg-5 col-lg-offset-1">
+                     <h2>e-Yantra’16 IIT Bombay Runner up  </h2>
+                     <span class="project-content">
+                       This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize.
+                     </span><br><br>
+                     <a class="btn btn-primary" href="#">View Project</a>
+                   </div>
+                 </div>
+                 <br>
+               </li>
+
+
+              </ul>
+
+
+
+            </div>
           </div>
         </div>
       </div>
 
     </div>
-
 
     <footer>
       <div class="container">

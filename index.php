@@ -100,28 +100,28 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item">
-          <img src="img/1.jpg" data-color="lightblue" alt="cover pic">
+          <img src="img/carouselPics/1.jpg" data-color="lightblue" alt="cover pic">
           <div class="carousel-caption">
             <span class="huge">EMBEDDED SYSTEMS & ROBOTICS CLUB</span><br>
             <span class="medium">Welcome to the official website of Embedded Systems & Robotics Club,NIT Kurukshetra. We are an earnest endeavour in the automata domain.</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/2.jpg" data-color="firebrick" alt="Activities">
+          <img src="img/carouselPics/2.jpg" data-color="firebrick" alt="Activities">
           <div class="carousel-caption">
             <span class="huge">ACTIVITIES</span><br>
             <span class="medium">Our club hosts various technical activities like Brainstorming session, Robotics Day, Series of Workshops and Collobrative Projects</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/4.jpg" data-color="violet" alt="Projects">
+          <img src="img/carouselPics/4.jpg" data-color="violet" alt="Projects">
           <div class="carousel-caption">
             <span class="huge">PROJECTS</span><br>
             <span class="medium">Club has undertaken several  innovative embedded & software projects which has not only won awards but also came in the light of electronics core companies.</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/3.jpg" data-color="lightgreen" alt="About us">
+          <img src="img/carouselPics/3.jpg" data-color="lightgreen" alt="About us">
           <div class="carousel-caption">
             <span class="huge">ABOUT US</span><br>
             <span class="medium">Embedded Systems & Robotics Club, NIT Kurukshetra is an earnest endeavour in the automata domain. The brainchild of a diligent student fraternity, the club aims </span>
@@ -182,7 +182,7 @@
       });
 
       $('.carousel').carousel({
-        interval: 6000,
+        interval: 4000,
         pause: "false"
       });
 

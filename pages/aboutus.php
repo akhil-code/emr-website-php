@@ -24,11 +24,19 @@
     <link href="../css/stylish-portfolio.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <style>
-      .large{
-        font-size: 44px;
+      @media screen and (min-width:100px) {
+          .huge{ font-size:250%; }
+          .medium{ font-size:125%; }
+      }
+      @media screen and (min-width:900px) {
+          .huge{ font-size:300%; }
+          .medium{ font-size:140%; }
+      }
+      .huge{
+        font-weight: bold;
       }
       .medium{
-        font-size: 20px;
+        /*font-weight: bold;*/
       }
     </style>
   </head>
@@ -43,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="dashboard.php" style="color:white;margin-right:30px;">EmR Club</a>
+          <a class="navbar-brand" href="../index.php" style="color:white;margin-right:30px;">EmR Club</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -61,12 +69,12 @@
       </div>
     </nav>
 
-    <br><br><br>
+    <br><br><br><br>
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
           <div class="jumbotron">
-            <h1>About us</h1>
+            <span class="huge">About us</span><br>
             <span class="medium">Embedded Systems & Robotics Club, NIT Kurukshetra is an earnest endeavour in the automata domain. The brainchild of a diligent student fraternity, the club aims to elevate the standards of the institute by pioneering quality learning and guidance in the field of robotics. A huge student community fancies the world of robotics and the club aids this materialization. The salient feature of the club is that it aims at evolving the seeds of knowledge in this novice chunk, nurturing them into future technocrats. The club welcomes all those with a spark, who crave to dig into this vast promising realm, and ensures a 24×7 lucid mentorship
             </span>
           </div>
@@ -74,7 +82,7 @@
         <div class="col-lg-5">
           <div class="jumbotron">
             <!-- <span class="large">Mission</span><br> -->
-            <h1>Mission</h1>
+            <span class="huge">Mission</span><br>
             <span class="medium">
               The increasing economic growth and competition in the global market lead the public and private sectors to seek innovation in the field of engineering and technology. In this scenario club effort is orient towards providing the common platform for the knowledge and opportunity to implement the innovative ideas.
             </span>
