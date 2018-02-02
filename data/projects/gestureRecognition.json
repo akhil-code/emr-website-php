@@ -1,0 +1,10 @@
+{
+  "title":"Gesture Recognition",
+  "url":"https://www.youtube.com/embed/cE-cb-aRfh4",
+  "projectDescription":"The C++ (OpenCV library used for image processing)
+  program detects 7 hand gestures: the traditional “Yo!” sign, “call” sign,
+   “click” sign, “hold” sign, “stop” sign and tilted hands(with degree of tilt)
+   with astounding accuracy. It can even be used to control a robotic arm when
+    a gesture is detected and made to look like a hand imitator",
+  "team":["Saumye Malhotra"]
+}

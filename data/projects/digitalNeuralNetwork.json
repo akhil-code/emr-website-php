@@ -1,0 +1,11 @@
+{
+  "title":"Digital Neural Network used for Handwriting Recognition",
+  "url":"https://www.youtube.com/embed/vQ82dH1HYSw",
+  "projectDescription":"A neural network is analogically similar to network of
+  neurons in a human brain, and a trained network can be made to imitate human brain.
+  The network shown in the video has been trained on 5000 hand written numbers and has
+  achieved an accuracy of 97.52%. The image of a randomly selected image from a set is shown
+   on the right side and the most probable prediction is shown in the terminal on the left side.",
+  "team":["Saumye Malhotra"]
+
+}

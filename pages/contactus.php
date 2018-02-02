@@ -209,7 +209,7 @@
                     <div class="col-lg-6">
                       <img src="../img/people/akanksha.jpg" class="img-rounded img-responsive" alt="shukla">
                     </div>
-                    <div class="col-xs-6 text-right">
+                    <div class="col-lg-6 text-right">
                       <div class="huge">Akanksha Shukla</div>
                       <div>Girl's Representative</div>
                     </div>
@@ -236,7 +236,7 @@
                       <img src="../img/people/gopal.jpg" class="img-rounded img-responsive" alt="gopal">
                     </div>
                     <div class="col-lg-6 text-right">
-                      <div class="huge">D Sai Gopal </div>
+                      <div class="huge">Sai Gopal </div>
                       <div>Technical Head</div>
                     </div>
                   </div>
