@@ -1,0 +1,103 @@
+{
+  "accelerometerBasedRobot":
+  {
+    "title":"Accelerometer based Wireless Robot",
+    "url":"https://www.youtube.com/embed/aXanDGtkz0w"
+  },
+
+  "apexoEvent":
+  {
+    "title":"Apexo event IIT Bombay Techfest",
+    "url": "https://www.youtube.com/embed/ya1cihM-8T4"
+  },
+
+  "digitalNeuralNetwork.json":
+  {
+    "title":"Digital Neural Network used for Handwriting Recognition",
+    "url":"https://www.youtube.com/embed/vQ82dH1HYSw",
+    "projectDescription":"A neural network is analogically similar to network of neurons in a human brain, and a trained network can be made to imitate human brain. The network shown in the video has been trained on 5000 hand written numbers and has achieved an accuracy of 97.52%. The image of a randomly selected image from a set is shown on the right side and the most probable prediction is shown in the terminal on the left side",
+    "team":["Saumye Malhotra"]
+  },
+
+  "dualModeRobot":
+  {
+    "title":"Dual Mode Robot",
+    "url":"https://www.youtube.com/embed/KqNBlLfWJns"
+  },
+
+  "eyantraChaserDrone":
+  {
+    "title":"e-Yantra'17 (Chaser Drone)",
+    "url":"https://www.youtube.com/embed/Nn91tXBWSUo",
+    "team":["Akhil Guttula","Sai Kiran","Sai Gopal","Mohan Krishna"],
+    "projectDescription":{
+      "task":"",
+      "objective":[]
+    }
+  },
+
+  "eyantraDIP":
+  {
+    "title":"e-Yantra'16 Runner up (Launch a Module)",
+    "url": ["https://www.youtube.com/embed/ewowKuoNTf4",""],
+    "team":["Akhil Guttula","Sai Kiran","Sai Gopal","Mohan Krishna"],
+    "projectDescription":{
+      "task":"Teams receive a camera view of the control room that contains
+       Objects that constitute the puzzle and Obstacles that need to be avoided.
+       Images received from the camera have to be processed and commands need to be
+        sent to the robot to move it around the control room area. The robot has
+        to solve a puzzle by placing appropriate Objects in designated Door Area.
+        The image processing part consists of challenges such as shape and color
+        detection to distinguish between Objects and Obstacles. The robot has to
+        identify and pick up the Objects placed randomly in the control room area
+        and place them in their correct Door area in order to solve the puzzle.
+        The challenge is to complete this task in the shortest time possible and
+         solve the puzzle.",
+      "objective":["The objective of the Theme is to:","a) Detect the Color
+        markers in the Door Area.","b) Find the matching Objects in the Working Area.",
+        "c) Use the provided robot to pick the matching Object from the Working Area
+         and deposit it in the Door Area, without touching/displacing any Obstacle
+         in the Working Area. This has to be repeated till all the matching Objects are
+         deposited in the appropriate Cells in the Door Area."]
+    }
+  },
+
+  "gestureRecognition":
+  {
+    "title":"Gesture Recognition",
+    "url":"https://www.youtube.com/embed/cE-cb-aRfh4",
+    "projectDescription":"The C++ (OpenCV library used for image processing)
+    program detects 7 hand gestures: the traditional “Yo!” sign, “call” sign,
+     “click” sign, “hold” sign, “stop” sign and tilted hands(with degree of tilt)
+     with astounding accuracy. It can even be used to control a robotic arm when
+      a gesture is detected and made to look like a hand imitator",
+    "team":["Saumye Malhotra"]
+  },
+
+  "gridSolver":
+  {
+    "title":"Grid Solver",
+    "url":"https://www.youtube.com/embed/qIEHM80-_Rg",
+    "projectDescription":"Grid Solver robot made by Team EmR for IIT Bombay Techfest event."
+  },
+
+  "lowCostIrrigationSystem":
+  {
+    "title":"Low Cost Intelligent Irrigation System (University Design Contest’15 First Prize)",
+    "url":"https://www.youtube.com/embed/ApZ-0rChRTc",
+    "projectDescription":"This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize. Working of this project is completely explained in this video."
+  },
+
+  "mazeSolver":
+  {
+    "title":"Maze Solver",
+    "url":"https://www.youtube.com/embed/PBzRgJKBCa4"
+  },
+
+  "pulseRateCalculator":
+  {
+    "title":"Pulse Rate Calculator",
+    "url":"https://www.youtube.com/embed/GwlDXBsinxE"
+  }
+
+}

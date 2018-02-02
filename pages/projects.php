@@ -38,6 +38,13 @@
           .secondary-text{ font-size:110%; }
       }
 
+      a{
+        color: 	#1a1a1a;
+      }
+      a:hover{
+        color: #000000;
+      }
+
     </style>
   </head>
 
@@ -82,7 +89,7 @@
       <div class="row">
         <!-- panel starting project 1-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="lowCostIrrigationSystem" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -93,10 +100,10 @@
               </div>
             </div>
             <div class="panel-footer">
-              <span class="pull-left"><strong>Low Cost Intelligent Irrigation System</strong></span>
-              <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span>
-              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-              <div class="clearfix"></div>
+                <span class="pull-left"><strong>Low Cost Intelligent Irrigation System</strong></span>
+                <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span>
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                <div class="clearfix"></div>
             </div>
           </div>
         </div>
@@ -104,7 +111,7 @@
 
         <!-- panel starting project 2-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="digitalNeuralNetwork" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -127,7 +134,7 @@
 
         <!-- panel starting project 3-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div id="dualModeRobot" onclick="onProjectClick(this.id)" class="panel panel-default">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -147,12 +154,13 @@
         <!-- panel ending -->
 
       </div>
+      <!-- row ending -->
 
       <!-- row 2 -->
       <div class="row">
         <!-- panel starting project 1-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="gridSolver" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -173,7 +181,7 @@
 
         <!-- panel starting project 2-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div id="mazeSolver" onclick="onProjectClick(this.id)" class="panel panel-default">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -195,7 +203,7 @@
 
         <!-- panel starting project 3-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="gestureRecognition" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -221,7 +229,7 @@
       <div class="row">
         <!-- panel starting project 1-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="apexoEvent" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -242,7 +250,7 @@
 
         <!-- panel starting project 2-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="pulseRateCalculator" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -264,7 +272,7 @@
 
         <!-- panel starting project 3-->
         <div class="col-lg-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="accelerometerBasedRobot" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -289,7 +297,7 @@
       <div class="row">
         <!-- panel starting project 1-->
         <div class="col-lg-4 col-lg-offset-4">
-          <div class="panel panel-default">
+          <div class="panel panel-default" id="eyantraDIP" onclick="onProjectClick(this.id)">
             <div class="panel-heading">
               <div class="row">
                 <div class="col-lg-12">
@@ -305,8 +313,8 @@
               <div class="clearfix"></div>
             </div>
           </div>
+          <!-- panel ending -->
         </div>
-        <!-- panel ending -->
 
       </div>
 
@@ -328,51 +336,19 @@
     <!-- jquery -->
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bottomScrollbar.js"></script>
 
-
-    <!-- custom theme javascript -->
     <script>
-      // Scrolls to the selected menu item on the page
-      $(function() {
-          $('a[href=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-              if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                  var target = $(this.hash);
-                  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                  if (target.length) {
-                      $('html,body').animate({
-                          scrollTop: target.offset().top
-                      }, 1000);
-                      return false;
-                  }
-              }
-          });
-      });
-      //#to-top button appears after scrolling
-      var fixed = false;
-      $(document).scroll(function() {
-          if ($(this).scrollTop() > 250) {
-              if (!fixed) {
-                  fixed = true;
-                  // $('#to-top').css({position:'fixed', display:'block'});
-                  $('#to-top').show("slow", function() {
-                      $('#to-top').css({
-                          position: 'fixed',
-                          display: 'block'
-                      });
-                  });
-              }
-          } else {
-              if (fixed) {
-                  fixed = false;
-                  $('#to-top').hide("slow", function() {
-                      $('#to-top').css({
-                          display: 'none'
-                      });
-                  });
-              }
-          }
-      });
+      function onProjectClick(id){
+        var myForm = document.getElementById('myForm');
+        document.getElementById('projectNameField').value = id;
+        myForm.submit();
+      }
     </script>
+
+    <form id="myForm" action="projectView.php" method="post">
+      <input type="hidden" id="projectNameField" name="projectName" value="none">
+    </form>
 
   </body>
 </html>

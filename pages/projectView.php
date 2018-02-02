@@ -1,5 +1,4 @@
 <?php
-
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
@@ -15,7 +14,7 @@
     <meta name="description" content=""/>
     <meta name="author" content="">
 
-    <title>EmR | Gallery</title>
+    <title>EmR | Projects</title>
     <link rel="icon" href="../img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
@@ -57,9 +56,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="../index.php">Home</a></li>
-            <li><a href="projects.php">Projects</a></li>
+            <li class="active"><a href="projects.php">Projects</a></li>
             <li><a href="workshops.php">Workshops</a></li>
-            <li class="active"><a href="#">Gallery</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contactus.php">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
             <li><a href="queries.php">Queries / Feedback</a></li>
@@ -77,10 +76,10 @@
         <!-- panel starting -->
         <div class="col-lg-12">
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading" style="background:	#e6e6e6">
               <div class="row">
                 <div class="col-lg-12">
-                  <h1 id="projectName" align="center">Project Name</h1>
+                  <h1 id="projectName" align="center">Please go back and reload the page</h1>
                 </div>
               </div>
             </div>
@@ -89,14 +88,13 @@
                 <div>
                   <br>
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ApZ-0rChRTc" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item"  style="visibility:hidden;" onload="this.style.visibility = 'visible';" src="" id="myiframe" allowfullscreen></iframe>
                   </div>
                   <br>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <h3><strong>Project Description</strong></h3>
-                <p>This project is complete solution for irrigation problem in agriculture.We presented it in University Design Contest organised by ST-Microelectronics and National Innovation Foundation and this project got first prize. Working of this project is completely explained in this video.</p>
+              <div id="descriptionContainer" class="col-lg-6">
+
               </div>
 
               <div class="clearfix"></div>
@@ -128,51 +126,128 @@
     <!-- jquery -->
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
+    <script src="../js/bottomScrollbar.js"></script>
 
     <!-- custom theme javascript -->
     <script>
-      // Scrolls to the selected menu item on the page
-      $(function() {
-          $('a[href=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-              if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                  var target = $(this.hash);
-                  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                  if (target.length) {
-                      $('html,body').animate({
-                          scrollTop: target.offset().top
-                      }, 1000);
-                      return false;
+
+      var projectName = "<?php echo $_POST["projectName"]; ?>";
+      loadJSON(projectName);
+
+      function createH3Element(text){
+        var strongElement = document.createElement("strong");
+        strongElement.innerHTML = text;
+        var headingElement = document.createElement("h3");
+        headingElement.appendChild(strongElement);
+        return headingElement;
+      }
+
+      function createPElement(text){
+        var pElement = document.createElement("p");
+        pElement.innerHTML = text;
+        return pElement;
+      }
+
+      function loadJSON(projectName) {
+        var fileLocation = '../data/projectsData.json';
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange=function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var jsonText = this.responseText;
+            var jsonObject = JSON.parse(jsonText);
+            if(jsonObject != undefined && jsonObject[projectName] != undefined){
+
+              // title
+              if("title" in jsonObject[projectName]){
+                document.getElementById("projectName").innerHTML = jsonObject[projectName]["title"];
+              }
+              // url
+              if("url" in jsonObject[projectName]){
+                document.getElementById("myiframe").src = jsonObject[projectName]["url"];
+              }
+              else{
+                document.getElementById("myiframe").style.display = "none";
+              }
+              // project description
+              if("projectDescription" in jsonObject[projectName]){
+                // creating project description heading
+                var headingElement = createH3Element("Project Description");
+                document.getElementById("descriptionContainer").appendChild(headingElement);
+
+                if(typeof jsonObject[projectName]["projectDescription"] === 'object'){
+                  var details = jsonObject[projectName]["projectDescription"];
+                  for(key in details){
+                    // creating heading
+                    headingElement = createH3Element(key);
+                    document.getElementById("descriptionContainer").appendChild(headingElement);
+
+                    // creating content
+                    if(typeof details[key] === 'object'){
+                        for(ele in details[key]){
+                          pElement = createPElement(details[key][ele]);
+                          document.getElementById("descriptionContainer").appendChild(pElement);
+                        }
+                    }
+                    else{
+                      pElement = createPElement(details[key]);
+                      document.getElementById("descriptionContainer").appendChild(pElement);
+                    }
+
                   }
+                }
+                else{
+                  var contentElement = document.createElement("p");
+                  contentElement.innerHTML = jsonObject[projectName]["projectDescription"];
+                  document.getElementById("descriptionContainer").appendChild(contentElement);
+                }
               }
-          });
-      });
-      //#to-top button appears after scrolling
-      var fixed = false;
-      $(document).scroll(function() {
-          if ($(this).scrollTop() > 250) {
-              if (!fixed) {
-                  fixed = true;
-                  // $('#to-top').css({position:'fixed', display:'block'});
-                  $('#to-top').show("slow", function() {
-                      $('#to-top').css({
-                          position: 'fixed',
-                          display: 'block'
-                      });
-                  });
+              else{
+                document.getElementById("projectDescription").style.display = "none";
+                document.getElementById("projectDescriptionHeading").style.display = "none";
               }
-          } else {
-              if (fixed) {
-                  fixed = false;
-                  $('#to-top').hide("slow", function() {
-                      $('#to-top').css({
-                          display: 'none'
-                      });
-                  });
+
+              // team
+              if("team" in jsonObject[projectName]){
+                headingElement = createH3Element("Team");
+                document.getElementById("descriptionContainer").appendChild(headingElement);
+
+                if(typeof jsonObject[projectName]["team"] === 'object'){
+                  for(ele in jsonObject[projectName]["team"]){
+                    var pElement = createPElement(jsonObject[projectName]["team"][ele]);
+                    document.getElementById("descriptionContainer").appendChild(pElement);
+
+                  }
+                }
+                else{
+                  var pElement = createPElement(jsonObject[projectName]["team"]);
+                  document.getElementById("descriptionContainer").appendChild(pElement);
+
+                }
               }
+              else{
+                document.getElementById("team").style.display = "none";
+                document.getElementById("teamHeading").style.display = "none";
+              }
+
+            }
+            else{
+
+              document.getElementById("myiframe").style.display = "none";
+              document.getElementById("projectDescription").style.display = "none";
+              document.getElementById("projectDescriptionHeading").style.display = "none";
+              document.getElementById("team").style.display = "none";
+              document.getElementById("teamHeading").style.display = "none";
+              alert("project not found");
+            }
           }
-      });
+        };
+        xhttp.open("GET",fileLocation, true);
+        xhttp.send();
+      }
+
     </script>
+
+
 
   </body>
 </html>

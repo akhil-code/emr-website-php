@@ -1,9 +1,17 @@
 <?php
-
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
+?>
 
+<?php
+  if(strcmp($_SERVER["REQUEST_METHOD"],"POST") == 0){
+    $myfile = fopen("../data/queries/data.txt", "a") or die("Unable to open file!");
+    $txt = json_encode($_POST);
+    $txt .= PHP_EOL;
+    fwrite($myfile,$txt);
+    fclose($myfile);
+  }
 ?>
 
 <!DOCTYPE html>
@@ -75,31 +83,35 @@
             <!-- /.panel-heading -->
             <div class="panel-body">
 
-              <div class="form-group input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-user"></i>
-                </span>
-                <input class="form-control" placeholder="Name" type="text">
-              </div>
+              <form id="myForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 
-              <div class="form-group input-group">
-                <span class="input-group-addon">@</span>
-                <input class="form-control" placeholder="E-mail" type="text">
-              </div>
+                <div class="form-group input-group">
+                  <span class="input-group-addon">
+                    <i class="fa fa-user"></i>
+                  </span>
+                  <input class="form-control" id="name" placeholder="Name (required)" type="text" name="Name" required>
+                </div>
 
-              <div class="form-group input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-tty"></i>
-                </span>
-                <input class="form-control" placeholder="Mobile" type="text">
-              </div>
+                <div class="form-group input-group">
+                  <span class="input-group-addon">@</span>
+                  <input class="form-control" id="email" placeholder="E-mail (required)" type="text" name="Email" required>
+                </div>
 
-              <div class="form-group">
-                <label>Message</label>
-                <textarea class="form-control" rows="4"></textarea>
-              </div>
+                <div class="form-group input-group">
+                  <span class="input-group-addon">
+                    <i class="fa fa-tty"></i>
+                  </span>
+                  <input class="form-control" id="mobile" placeholder="Mobile (optional)" type="text" name="Mobile">
+                </div>
 
-              <a href="#" class="btn btn-success btn-block">Submit</a>
+                <div class="form-group">
+                  <label>Message (required)</label>
+                  <textarea class="form-control" rows="4" id="message" name="Message"></textarea>
+                </div>
+
+                <a onclick="submitForm()" class="btn btn-success btn-block">Submit</a>
+              </form>
+
             </div>
             <!-- /.panel-body -->
           </div>
@@ -125,51 +137,29 @@
     <!-- jquery -->
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-
-
-    <!-- custom theme javascript -->
+    <script src="../js/bottomScrollbar.js"></script>
     <script>
-      // Scrolls to the selected menu item on the page
-      $(function() {
-          $('a[href=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-              if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                  var target = $(this.hash);
-                  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                  if (target.length) {
-                      $('html,body').animate({
-                          scrollTop: target.offset().top
-                      }, 1000);
-                      return false;
-                  }
-              }
-          });
-      });
-      //#to-top button appears after scrolling
-      var fixed = false;
-      $(document).scroll(function() {
-          if ($(this).scrollTop() > 250) {
-              if (!fixed) {
-                  fixed = true;
-                  // $('#to-top').css({position:'fixed', display:'block'});
-                  $('#to-top').show("slow", function() {
-                      $('#to-top').css({
-                          position: 'fixed',
-                          display: 'block'
-                      });
-                  });
-              }
-          } else {
-              if (fixed) {
-                  fixed = false;
-                  $('#to-top').hide("slow", function() {
-                      $('#to-top').css({
-                          display: 'none'
-                      });
-                  });
-              }
-          }
-      });
-    </script>
+      function submitForm(){
+        // validation
+        var validated = true;
+        if( document.getElementById("name").value == "")
+          validated = false;
 
+        if( document.getElementById("email").value == "")
+          validated = false;
+
+        if( document.getElementById("message").value == "")
+          validated = false;
+
+        if(validated){
+          alert("submitted! we will reach you soon :-)");
+          document.getElementById("myForm").submit();
+        }
+        else{
+          alert("please fill the details, so that it helps us reaching you!");
+        }
+
+      }
+    </script>
   </body>
 </html>
