@@ -1,4 +1,10 @@
 <?php
+
+  session_start();
+  if(!isset($_SESSION["siteVisited"])) {
+    $_SESSION["siteVisited"] = true;
+    include 'php/siteViewIncrementer.php';
+  }
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
@@ -6,7 +12,7 @@
 
 <?php
   if(strcmp($_SERVER["REQUEST_METHOD"],"POST") == 0){
-    $myfile = fopen("../data/queries/data.txt", "a") or die("Unable to open file!");
+    $myfile = fopen("../data/queries.txt", "a") or die("Unable to open file!");
     $txt = json_encode($_POST);
     $txt .= PHP_EOL;
     fwrite($myfile,$txt);
@@ -126,6 +132,10 @@
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
             <hr class="small"/>
+            <span class="text-muted" style="color:black;">Site Views: </span>
+            <span class="text-muted" style="color:black;" id="siteViewCount">count</span><span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
+            <span class="text-muted" style="color:black;">Page Views: </span>
+            <span class="text-muted" style="color:black;" id="pageViewCount">count</span>
             <p class="text-muted" style="color:black;">&copy; Embedded Systems & Robotics Club, NIT Kurukshetra 2018</p>
             <p class="text-muted"><xmp><develop> Ag MMSK </design></xmp></p>
           </div>
@@ -138,6 +148,33 @@
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bottomScrollbar.js"></script>
+
+    <script>
+      loadPageCount();
+      function loadPageCount() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("pageViewCount").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "../php/pageViewIncrementer.php", true);
+        xhttp.send();
+      }
+
+      loadSiteCount();
+      function loadSiteCount() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("siteViewCount").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "../data/siteViewCount.txt", true);
+        xhttp.send();
+      }
+    </script>
+
     <script>
       function submitForm(){
         // validation

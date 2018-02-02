@@ -1,3 +1,5 @@
+
+
 // Scrolls to the selected menu item on the page
 $(function() {
     $('a[href=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
