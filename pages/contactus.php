@@ -294,12 +294,6 @@
                                 <em>9728431710</em>
                               </span>
                             </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Chaitanya
-                              <span class="pull-right text-muted small">
-                                <em>8950444204</em>
-                              </span>
-                            </div>
 
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Mukesh Agrawal
@@ -307,22 +301,17 @@
                                 <em>9541890682</em>
                               </span>
                             </div>
+                            
                             <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Pankaj
+                              <i class="fa fa-user fa-fw"></i>Chaitanya
                               <span class="pull-right text-muted small">
-                                <em>8809957152</em>
+                                <em>8950444204</em>
                               </span>
                             </div>
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Bhuwan Dixit
                               <span class="pull-right text-muted small">
                                 <em>9896992384</em>
-                              </span>
-                            </div>
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i>Damodar
-                              <span class="pull-right text-muted small">
-                                <em>9728431246</em>
                               </span>
                             </div>
 
@@ -332,13 +321,18 @@
                                 <em>9729012714</em>
                               </span>
                             </div>
-
-
-                          </div>
-                          <!-- /.list-group -->
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="list-group">
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Pankaj
+                              <span class="pull-right text-muted small">
+                                <em>8809957152</em>
+                              </span>
+                            </div>
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Damodar
+                              <span class="pull-right text-muted small">
+                                <em>9728431246</em>
+                              </span>
+                            </div>
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Deepak Birwal
                               <span class="pull-right text-muted small">
@@ -351,6 +345,13 @@
                                 <em>9728427367</em>
                               </span>
                             </div>
+
+                          </div>
+                          <!-- /.list-group -->
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="list-group">
+
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Sonali Kashyap
                               <span class="pull-right text-muted small">
