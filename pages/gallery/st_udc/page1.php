@@ -58,6 +58,17 @@
       .carousel-inner>.item>img, .carousel-inner>.item>a>img {
         width: 100%;
       }
+
+      #paginationWrapper {
+        /*background-color: green;*/
+        text-align: center;
+      }
+
+      #paginationDiv {
+        /*background-color: red;*/
+        display: inline-block;
+      }
+
     </style>
   </head>
 
@@ -75,13 +86,13 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="../../../index.php">Home</a></li>
-            <li><a href="projects.php">Projects</a></li>
-            <li><a href="workshops.php">Workshops</a></li>
-            <li class="active"><a href="#">Gallery</a></li>
-            <li><a href="contactus.php">Contact us</a></li>
-            <li><a href="aboutus.php">About us</a></li>
-            <li><a href="queries.php">Queries / Feedback</a></li>
+            <li><a href="/index.php">Home</a></li>
+            <li><a href="/pages/projects.php">Projects</a></li>
+            <li><a href="/pages/workshops.php">Workshops</a></li>
+            <li class="active"><a href="/pages/gallery.php">Gallery</a></li>
+            <li><a href="/pages/contactus.php">Contact us</a></li>
+            <li><a href="/pages/aboutus.php">About us</a></li>
+            <li><a href="/pages/queries.php">Queries / Feedback</a></li>
           </ul>
 
         </div>
@@ -89,163 +100,103 @@
     </nav>
 
     <br><br><br><br>
-    <!-- page heading -->
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="primary-text" align="center">Gallery</p>
-          <hr class="large"/>
-        </div>
-        <hr>
-      </div>
-    </div> -->
-
-
 
     <div class="container">
-        <div id="main_area">
-            <!-- Slider -->
+      <div class="row">
+        <h3 align="center"><strong>University Design Contest'15</strong></h3>
+      </div>
+
+      <div class="row" id="main_area">
+        <div class="col-lg-6">
+          <br>
+          <div class="col-xs-12" id="slider">
+            <!-- Top part of the slider -->
             <div class="row">
-                <div class="col-sm-6" id="slider-thumbs">
-                    <!-- Bottom switcher of slider -->
-                    <ul class="hide-bullets">
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-0">
-                                <img src="http://placehold.it/150x150&text=zero">
-                            </a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/150x150&text=1"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/150x150&text=2"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/150x150&text=3"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/150x150&text=4"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/150x150&text=5"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/150x150&text=6"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/150x150&text=7"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/150x150&text=8"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/150x150&text=9"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/150x150&text=10"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/150x150&text=11"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/150x150&text=12"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/150x150&text=13"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/150x150&text=14"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/150x150&text=15"></a>
-                        </li>
-                    </ul>
+              <div class="col-lg-12" id="carousel-bounding-box">
+                <div class="carousel slide" id="myCarousel">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner" id="carousel-container">
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
                 </div>
-                <div class="col-sm-6">
-                    <div class="col-xs-12" id="slider">
-                        <!-- Top part of the slider -->
-                        <div class="row">
-                            <div class="col-sm-12" id="carousel-bounding-box">
-                                <div class="carousel slide" id="myCarousel">
-                                    <!-- Carousel items -->
-                                    <div class="carousel-inner">
-                                        <div class="active item" data-slide-number="0">
-                                            <img src="http://placehold.it/470x480&text=zero"></div>
-
-                                        <div class="item" data-slide-number="1">
-                                            <img src="http://placehold.it/470x480&text=1"></div>
-
-                                        <div class="item" data-slide-number="2">
-                                            <img src="http://placehold.it/470x480&text=2"></div>
-
-                                        <div class="item" data-slide-number="3">
-                                            <img src="http://placehold.it/470x480&text=3"></div>
-
-                                        <div class="item" data-slide-number="4">
-                                            <img src="http://placehold.it/470x480&text=4"></div>
-
-                                        <div class="item" data-slide-number="5">
-                                            <img src="http://placehold.it/470x480&text=5"></div>
-
-                                        <div class="item" data-slide-number="6">
-                                            <img src="http://placehold.it/470x480&text=6"></div>
-
-                                        <div class="item" data-slide-number="7">
-                                            <img src="http://placehold.it/470x480&text=7"></div>
-
-                                        <div class="item" data-slide-number="8">
-                                            <img src="http://placehold.it/470x480&text=8"></div>
-
-                                        <div class="item" data-slide-number="9">
-                                            <img src="http://placehold.it/470x480&text=9"></div>
-
-                                        <div class="item" data-slide-number="10">
-                                            <img src="http://placehold.it/470x480&text=10"></div>
-
-                                        <div class="item" data-slide-number="11">
-                                            <img src="http://placehold.it/470x480&text=11"></div>
-
-                                        <div class="item" data-slide-number="12">
-                                            <img src="http://placehold.it/470x480&text=12"></div>
-
-                                        <div class="item" data-slide-number="13">
-                                            <img src="http://placehold.it/470x480&text=13"></div>
-
-                                        <div class="item" data-slide-number="14">
-                                            <img src="http://placehold.it/470x480&text=14"></div>
-
-                                        <div class="item" data-slide-number="15">
-                                            <img src="http://placehold.it/470x480&text=15"></div>
-                                    </div>
-                                    <!-- Carousel nav -->
-                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                        <span class="glyphicon glyphicon-chevron-left"></span>
-                                    </a>
-                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                        <span class="glyphicon glyphicon-chevron-right"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/Slider-->
+              </div>
             </div>
-
+          </div>
         </div>
+
+        <div class="col-lg-6" id="slider-thumbs">
+          <br><br><br><br>
+          <br><br><br><br>
+          <ul class="hide-bullets" id="pics-container">
+          </ul>
+        </div>
+      </div>
+
+
+        <br><br>
+        <div id="paginationWrapper">
+            <div id="paginationDiv">
+              <ul style="list-style-type:none;">
+                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a>
+                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
+                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
+                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">3</li></a>
+                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+
     </div>
+
+    <script>
+      loadPics();
+
+      function loadPics(){
+        var startIndex = 0;
+        var endIndex = 17;
+        var thumnbnailsString ='';
+        var carouselString = '';
+        // var carouselString =
+        // '<div class="active item" data-slide-number="0">\
+        //   <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc1.jpg">\
+        // </div>';
+
+        // creating thumbnails html string
+        for(x=1;x<17;x++){
+
+          thumnbnailsString +=
+          '<li class="col-lg-3">\
+            <a class="thumbnail" id="carousel-selector-'+x+'">\
+              <img class="img-responsive" src="/img/gallery/st_udc/udc'+x+'.jpg">\
+            </a>\
+          </li>';
+
+          if(x==1){
+            carouselString +=
+            '<div class="active item" data-slide-number="0">\
+              <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc1.jpg">\
+            </div>';
+          }
+          else{
+            carouselString +=
+            '<div class="item" data-slide-number="'+x+'">\
+            <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc'+x+'.jpg">\
+            </div>';
+          }
+        }
+        document.getElementById("carousel-container").innerHTML = carouselString;
+        document.getElementById("pics-container").innerHTML = thumnbnailsString;
+      }
+
+    </script>
 
 
     <footer>
