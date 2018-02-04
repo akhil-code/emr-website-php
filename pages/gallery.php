@@ -155,7 +155,31 @@
         <!-- panel ending -->
 
       </div>
+      <div class="row">
 
+        <!-- panel starting -->
+        <div class="col-lg-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="../img/gallery/covers/cover4.jpg" class="img-rounded img-responsive" alt="image">
+                </div>
+                <div class="col-lg-12">
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <span class="pull-left"><strong>Brainstorming Session 2017</strong></span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- panel ending -->
+
+
+      </div>
 
 
     </div>
@@ -190,7 +214,7 @@
             document.getElementById("pageViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "../php/pageViewIncrementer.php", true);
+        xhttp.open("GET", "/php/pageViewIncrementer.php", true);
         xhttp.send();
       }
 
@@ -202,7 +226,7 @@
             document.getElementById("siteViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "../data/siteViewCount.txt", true);
+        xhttp.open("GET", "/data/siteViewCount.txt", true);
         xhttp.send();
       }
     </script>

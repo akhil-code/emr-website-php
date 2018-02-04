@@ -85,7 +85,7 @@
             <div class="panel-heading" style="background:	#e6e6e6">
               <div class="row">
                 <div class="col-lg-12">
-                  <h1 id="projectName" align="center">Please go back and reload the page</h1>
+                  <h1 id="projectName" align="center"></h1>
                 </div>
               </div>
             </div>

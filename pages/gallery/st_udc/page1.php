@@ -109,8 +109,7 @@
       <div class="row" id="main_area">
         <div class="col-lg-6">
           <br>
-          <div class="col-xs-12" id="slider">
-            <!-- Top part of the slider -->
+          <!-- <div class="col-lg-12" id="slider"> -->
             <div class="row">
               <div class="col-lg-12" id="carousel-bounding-box">
                 <div class="carousel slide" id="myCarousel">
@@ -127,12 +126,10 @@
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
 
         <div class="col-lg-6" id="slider-thumbs">
-          <br><br><br><br>
-          <br><br><br><br>
           <ul class="hide-bullets" id="pics-container">
           </ul>
         </div>

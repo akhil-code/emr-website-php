@@ -9,6 +9,16 @@
   header("Cache-Control: post-check=0, pre-check=0", false);
   header("Pragma: no-cache");
 
+  // unset cookies
+  if (isset($_SERVER['HTTP_COOKIE'])) {
+      $cookies = explode(';', $_SERVER['HTTP_COOKIE']);
+      foreach($cookies as $cookie) {
+          $parts = explode('=', $cookie);
+          $name = trim($parts[0]);
+          setcookie($name, '', time()-1000);
+          setcookie($name, '', time()-1000, '/');
+      }
+  }
 
 ?>
 
@@ -25,10 +35,14 @@
     <link rel="icon" href="../img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- custom css -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
       @media screen and (min-width:100px) {
           .huge{ font-size:200%; }
@@ -164,8 +178,10 @@
     </footer>
 
     <!-- jquery -->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/jquery-3.2.1.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/bottomScrollbar.js"></script>
 
     <script>
@@ -177,7 +193,7 @@
             document.getElementById("pageViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "php/pageViewIncrementer.php", true);
+        xhttp.open("GET", "/php/pageViewIncrementer.php", true);
         xhttp.send();
       }
 
@@ -189,7 +205,7 @@
             document.getElementById("siteViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "data/siteViewCount.txt", true);
+        xhttp.open("GET", "/data/siteViewCount.txt", true);
         xhttp.send();
       }
     </script>
