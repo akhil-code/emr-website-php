@@ -19,14 +19,17 @@
     <meta name="description" content=""/>
     <meta name="author" content="">
 
-    <title>EmR | Workshops</title>
+    <title>EmR | 404</title>
     <link rel="icon" href="../img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="../css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- custom css -->
     <link href="../css/stylish-portfolio.css" rel="stylesheet">
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       @media screen and (min-width:100px) {
           .medium{ font-size:100%; }
@@ -54,10 +57,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="../index.php">Home</a></li>
-            <li><a href="projects.php">Projects</a></li>
-            <li class="active"><a href="#">Workshops</a></li>
-            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="workshops.php">Workshops</a></li>
+            <li><a href="/projects.php">Projects</a></li>
+            <li><a href="/gallery.php">Gallery</a></li>
             <li><a href="contactus.php">Contact us</a></li>
             <li><a href="aboutus.php">About us</a></li>
             <li><a href="queries.php">Queries / Feedback</a></li>
@@ -137,9 +139,11 @@
     </footer>
 
     <!-- jquery -->
-    <script src="../js/jquery-3.2.1.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bottomScrollbar.js"></script>
+    <!-- <script src="/js/jquery-3.2.1.js"></script> -->
+    <!-- <script src="/js/bootstrap.min.js"></script> -->
+    <script src="/js/bottomScrollbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       loadPageCount();
       function loadPageCount() {
@@ -149,7 +153,7 @@
             document.getElementById("pageViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "../php/pageViewIncrementer.php", true);
+        xhttp.open("GET", "/php/pageViewIncrementer.php", true);
         xhttp.send();
       }
       loadSiteCount();
@@ -160,7 +164,7 @@
             document.getElementById("siteViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "../data/siteViewCount.txt", true);
+        xhttp.open("GET", "/data/siteViewCount.txt", true);
         xhttp.send();
       }
     </script>

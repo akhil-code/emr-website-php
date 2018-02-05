@@ -32,7 +32,7 @@
     <meta name="author" content="">
 
     <title>EmR | Home</title>
-    <link rel="icon" href="../img/icon.png" sizes="32x32"/>
+    <link rel="icon" href="/img/icon.png" sizes="32x32"/>
 
     <!-- bootstrap core css -->
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -82,7 +82,7 @@
   <body style="background-color:#bfbfbf">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <img align="left" style="margin-top:5px;margin-bottom:5px;margin-right:10px;" src="img/icon.png" alt="logo" height="42" width="42">
+        <img align="left" style="margin-top:5px;margin-bottom:5px;margin-right:10px;" src="/img/icon.png" alt="logo" height="42" width="42">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -93,13 +93,12 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="pages/projects.php">Projects</a></li>
-            <li><a href="pages/workshops.php">Workshops</a></li>
-            <li><a href="pages/gallery.php">Gallery</a></li>
-            <li><a href="pages/contactus.php">Contact us</a></li>
-            <li><a href="pages/aboutus.php">About us</a></li>
-            <li><a href="pages/queries.php">Queries / Feedback</a></li>
+            <li><a href="/pages/workshops.php">Workshops</a></li>
+            <li><a href="/pages/projects.php">Projects</a></li>
+            <li><a href="/pages/gallery.php">Gallery</a></li>
+            <li><a href="/pages/contactus.php">Contact us</a></li>
+            <li><a href="/pages/aboutus.php">About us</a></li>
+            <li><a href="/pages/queries.php">Queries / Feedback</a></li>
           </ul>
 
         </div>
@@ -120,28 +119,28 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item">
-          <img src="img/carouselPics/1.jpg" data-color="lightblue" alt="cover pic">
+          <img src="/img/carouselPics/1.jpg" data-color="lightblue" alt="cover pic">
           <div class="carousel-caption">
             <span class="huge">EMBEDDED SYSTEMS & ROBOTICS CLUB</span><br>
             <span class="medium">Welcome to the official website of Embedded Systems & Robotics Club,NIT Kurukshetra. We are an earnest endeavour in the automata domain.</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/carouselPics/2.jpg" data-color="firebrick" alt="Activities">
+          <img src="/img/carouselPics/2.jpg" data-color="firebrick" alt="Activities">
           <div class="carousel-caption">
             <span class="huge">ACTIVITIES</span><br>
             <span class="medium">Our club hosts various technical activities like Brainstorming session, Robotics Day, Series of Workshops and Collobrative Projects</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/carouselPics/4.jpg" data-color="violet" alt="Projects">
+          <img src="/img/carouselPics/4.jpg" data-color="violet" alt="Projects">
           <div class="carousel-caption">
             <span class="huge">PROJECTS</span><br>
             <span class="medium">Club has undertaken several  innovative embedded & software projects which has not only won awards but also came in the light of electronics core companies.</span>
           </div>
         </div>
         <div class="item">
-          <img src="img/carouselPics/3.jpg" data-color="lightgreen" alt="About us">
+          <img src="/img/carouselPics/3.jpg" data-color="lightgreen" alt="About us">
           <div class="carousel-caption">
             <span class="huge">ABOUT US</span><br>
             <span class="medium">Embedded Systems & Robotics Club, NIT Kurukshetra is an earnest endeavour in the automata domain. The brainchild of a diligent student fraternity, the club aims </span>
@@ -182,7 +181,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/bottomScrollbar.js"></script>
+    <script src="/js/bottomScrollbar.js"></script>
 
     <script>
       loadPageCount();
@@ -193,7 +192,7 @@
             document.getElementById("pageViewCount").innerHTML = this.responseText;
           }
         };
-        xhttp.open("GET", "/php/pageViewIncrementer.php", true);
+        xhttp.open("GET", "php/pageViewIncrementer.php", true);
         xhttp.send();
       }
 

@@ -9,7 +9,7 @@
   $count += 1;
   $myfile = fopen($fileName,"w")  or die("Unable to open file!");
   $siteViewCount = (string)$count;
-  echo $siteViewCount;
+  // echo $siteViewCount;
   fwrite($myfile,$siteViewCount);
   fclose($myfile);
 ?>

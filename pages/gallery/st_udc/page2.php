@@ -129,10 +129,10 @@
           </div>
           <div class="row">
             <ul style="padding-left:15px; list-style-type:none;">
-              <!-- <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a> -->
-              <a href="#" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
-              <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
-              <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a>
+              <a href="page1.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a>
+              <a href="page1.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
+              <a href="#" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
+              <!-- <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a> -->
             </ul>
           </div>
         </div>
@@ -161,7 +161,7 @@
       function loadPics(){
         var thumnbnailsString ='';
         var carouselString = '';
-        var start=1, end=16;
+        var start=17, end=29;
         // var carouselString =
         // '<div class="active item" data-slide-number="0">\
         //   <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc1.jpg">\
