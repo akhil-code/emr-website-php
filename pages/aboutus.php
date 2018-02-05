@@ -36,8 +36,8 @@
           .medium{ font-size:125%; }
       }
       @media screen and (min-width:900px) {
-          .huge{ font-size:300%; }
-          .medium{ font-size:140%; }
+          .huge{ font-size:200%; }
+          .medium{ font-size:120%; }
       }
       .huge{
         font-weight: bold;
@@ -78,29 +78,36 @@
     <br><br><br><br>
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
-          <div class="jumbotron">
+
+        <div class="col-lg-8">
+          <div class="well">
             <span class="huge">About us</span><br>
             <span class="medium">Embedded Systems & Robotics Club, NIT Kurukshetra is an earnest endeavour in the automata domain. The brainchild of a diligent student fraternity, the club aims to elevate the standards of the institute by pioneering quality learning and guidance in the field of robotics. A huge student community fancies the world of robotics and the club aids this materialization. The salient feature of the club is that it aims at evolving the seeds of knowledge in this novice chunk, nurturing them into future technocrats. The club welcomes all those with a spark, who crave to dig into this vast promising realm, and ensures a 24×7 lucid mentorship
             </span>
           </div>
-        </div>
-        <div class="col-lg-5">
-          <div class="jumbotron">
-            <!-- <span class="large">Mission</span><br> -->
+
+          <div class="well" style="margin-top:0px;">
             <span class="huge">Mission</span><br>
             <span class="medium">
               The increasing economic growth and competition in the global market lead the public and private sectors to seek innovation in the field of engineering and technology. In this scenario club effort is orient towards providing the common platform for the knowledge and opportunity to implement the innovative ideas.
             </span>
             <br><br><br>
-            <p>
+            <p class="medium" align="center">
               <strong>
-                “Engineering Education should orient towards Innovation” is our <i>Vision</i>.
+                “Engineering Education should orient towards Innovation” is our Vision.
               </strong>
             </p>
           </div>
 
         </div>
+
+        <div class="col-lg-4">
+          <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Femrclub.nitkkr&tabs=timeline&width=340&height=520&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=212145209342070" width="340" height="520" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <!-- </div> -->
+        </div>
+
+
       </div>
 
     </div>

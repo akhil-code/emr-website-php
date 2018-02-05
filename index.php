@@ -80,6 +80,7 @@
   </head>
 
   <body style="background-color:#bfbfbf">
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <img align="left" style="margin-top:5px;margin-bottom:5px;margin-right:10px;" src="/img/icon.png" alt="logo" height="42" width="42">
@@ -104,7 +105,6 @@
         </div>
       </div>
     </nav>
-
 
 
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
