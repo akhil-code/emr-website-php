@@ -46,6 +46,13 @@
           .secondary-text{ font-size:110%; }
       }
 
+      a{
+        color: black;
+      }
+      a:hover{
+        color: black;
+      }
+
     </style>
   </head>
 
@@ -81,9 +88,26 @@
         <div class="col-lg-12">
           <p class="primary-text" align="center">Workshops</p>
           <p class="secondary-text" align="center">'We organise workshops through out the academic session in spreading knowledge in various domains'</p>
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="registration.php">
+                <div class="well well-sm" style="background: #f2f2f2;">
+                  <span class="pull-left">
+                    <strong>Register</strong> to our upcoming Workshop: <strong>Digital Image Processing</strong> (Part-2)
+                  </span>
+                  <!-- <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span> -->
+                  <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                  <div class="clearfix"></div>
+                </div>
+              </a>
+            </div>
           <hr class="large"/>
         </div>
       </div>
+
+
+
+
 
       <!-- row 1 -->
       <div class="row">

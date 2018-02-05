@@ -1,0 +1,4 @@
+{"Name":"akhil","Mobile":"9992295131","Email":"guttula.akhil@gmail.com","year":"3rd","hasAttended":"Yes","Message":"No queries, Sorry ;-)"}
+{"Name":"adfasd","Mobile":"lk;j;lkj;","Email":"lkj;lkjlkj","year":"1st","hasAttended":"true","Message":";lkj;lkj\r\n"}
+{"Name":"adfasd","Mobile":"lk;j;lkj;","Email":"lkj;lkjlkj","year":"1st","hasAttended":"true","Message":";lkj;lkj\r\n"}
+{"Name":"akhil","Mobile":"guttul","Email":";lkj;lkj;","year":"1st","hasAttended":"No","Message":""}

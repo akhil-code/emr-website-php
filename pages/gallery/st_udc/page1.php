@@ -79,7 +79,6 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="/index.php">Home</a></li>
             <li><a href="/pages/projects.php">Projects</a></li>
             <li><a href="/pages/workshops.php">Workshops</a></li>
             <li class="active"><a href="/pages/gallery.php">Gallery</a></li>
