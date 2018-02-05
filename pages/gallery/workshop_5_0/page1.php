@@ -95,7 +95,7 @@
 
     <div class="container">
       <div class="row">
-        <h3 align="center"><strong>University Design Contest'15</strong></h3>
+        <h3 align="center"><strong>Robotics workshop 5.0: Accelerometer controlled robot</strong></h3>
       </div>
 
       <div class="row" id="main_area">
@@ -128,29 +128,16 @@
           </div>
           <div class="row">
             <ul style="padding-left:15px; list-style-type:none;">
-              <a href="page1.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a>
-              <a href="page1.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
-              <a href="#" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
-              <!-- <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a> -->
+              <!-- <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a> -->
+              <a href="#" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
+              <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
+              <a href="page3.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">3</li></a>
+              <a href="page4.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">4</li></a>
+              <a href="page5.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">5</li></a>
+              <a href="page2.php" style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a>
             </ul>
           </div>
         </div>
-      </div>
-
-
-        <!-- <br><br>
-        <div id="paginationWrapper">
-            <div id="paginationDiv">
-              <ul style="list-style-type:none;">
-                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;"><</li></a>
-                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">1</li></a>
-                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">2</li></a>
-                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">3</li></a>
-                <a style="text-decoration:none;"><li style="display: inline; padding-right:10px; padding-left:10px; border: solid 1px black;">></li></a>
-              </ul>
-            </div>
-        </div> -->
-
       </div>
 
     </div>
@@ -160,7 +147,7 @@
       function loadPics(){
         var thumnbnailsString ='';
         var carouselString = '';
-        var start=17, end=29;
+        var start=1, end=16;
         // var carouselString =
         // '<div class="active item" data-slide-number="0">\
         //   <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc1.jpg">\
@@ -171,19 +158,19 @@
           thumnbnailsString +=
           '<li class="col-lg-3">\
             <a class="thumbnail" id="carousel-selector-'+x+'">\
-              <img class="img-responsive" src="/img/gallery/st_udc/udc'+(x+start)+'.jpg">\
+              <img class="img-responsive" src="/img/gallery/workshop_5_0/'+(x+start)+'.jpg">\
             </a>\
           </li>';
           if(x==0){
             carouselString +=
             '<div class="active item" data-slide-number="'+x+'">\
-              <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc'+(x+start)+'.jpg">\
+              <img class="img-responsive img-rounded" src="/img/gallery/workshop_5_0/'+(x+start)+'.jpg">\
             </div>';
           }
           else{
             carouselString +=
             '<div class="item" data-slide-number="'+x+'">\
-            <img class="img-responsive img-rounded" src="/img/gallery/st_udc/udc'+(x+start)+'.jpg">\
+            <img class="img-responsive img-rounded" src="/img/gallery/workshop_5_0/'+(x+start)+'.jpg">\
             </div>';
           }
         }

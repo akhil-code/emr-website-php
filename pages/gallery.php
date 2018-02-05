@@ -47,6 +47,10 @@
       .medium{
         font-weight: bold;
       }
+
+      a{color: black;}
+      a:hover{color: black}
+
     </style>
   </head>
 
@@ -112,28 +116,30 @@
           <!-- panel ending -->
         </a>
 
-        <!-- panel starting -->
-        <div class="col-lg-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <div class="row">
-                <div class="col-lg-12">
-                  <img src="../img/gallery/covers/cover2.jpg" class="img-rounded img-responsive" alt="image">
-                </div>
-                <div class="col-lg-12">
+        <a href="gallery/workshop_5_0/page1.php">
+          <!-- panel starting -->
+          <div class="col-lg-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="../img/gallery/covers/cover2.jpg" class="img-rounded img-responsive" alt="image">
+                  </div>
+                  <div class="col-lg-12">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="panel-footer">
-              <span class="pull-left"><strong>Robotics Workshop 5.0</strong></span>
-              <span class="pull-left"><strong>Accelerometer controlled robot</strong></span>
+              <div class="panel-footer">
+                <span class="pull-left"><strong>Robotics Workshop 5.0</strong></span>
+                <span class="pull-left"><strong>Accelerometer controlled robot</strong></span>
 
-              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-              <div class="clearfix"></div>
+                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                <div class="clearfix"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- panel ending -->
+          <!-- panel ending -->
+        </a>
 
         <!-- panel starting -->
         <div class="col-lg-4">
