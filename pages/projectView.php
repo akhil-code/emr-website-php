@@ -3,7 +3,9 @@
   session_start();
   if(!isset($_SESSION["siteVisited"])) {
     $_SESSION["siteVisited"] = true;
-    include 'php/siteViewIncrementer.php';
+    // include 'php/siteViewIncrementer.php';
+    include $_SERVER["DOCUMENT_ROOT"].'/php/siteViewIncrementer.php';
+    
   }
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
