@@ -136,10 +136,10 @@
                   </div>
                 </div>
                 <div class="panel-footer">
-                  <span class="pull-left"><a><i class="fa fa-facebook-official">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-left"><a href="https://www.facebook.com/akhilguttula96"><i class="fa fa-facebook-official">&nbsp;&nbsp;</i></a></span>
                   <span class="pull-left"><a><i class="fa fa-google">&nbsp;&nbsp;</i></a></span>
-                  <span class="pull-left"><a><i class="fa fa-git">&nbsp;&nbsp;</i></a></span>
-                  <span class="pull-left"><a><i class="fa fa-youtube-play">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-left"><a href="https://github.com/guttulaakhil/"><i class="fa fa-git">&nbsp;&nbsp;</i></a></span>
+                  <!-- <span class="pull-left"><a><i class="fa fa-youtube-play">&nbsp;&nbsp;</i></a></span> -->
                   <span class="pull-right"><i class="fa fa-phone"></i>&nbsp;8950409998</span>
                   <div class="clearfix"></div>
                 </div>
@@ -210,7 +210,7 @@
           <div class="row">
 
             <!-- panel starting -->
-            <div class="col-lg-6 col-md-6">
+            <!-- <div class="col-lg-6 col-md-6">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <div class="row">
@@ -232,7 +232,7 @@
                   <div class="clearfix"></div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- panel ending -->
 
             <!-- panel starting -->
@@ -260,6 +260,33 @@
               </div>
             </div>
             <!-- panel ending -->
+
+            <!-- panel starting -->
+            <div class="col-lg-6 col-md-6">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <img src="../img/people/kiran.jpg" class="img-rounded img-responsive" alt="kiran">
+                    </div>
+                    <div class="col-lg-6 text-right">
+                      <div class="huge">Sai Kiran </div>
+                      <div>Publicity Head</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-footer">
+                  <span class="pull-left"><a><i class="fa fa-facebook-official">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-left"><a><i class="fa fa-google">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-left"><a><i class="fa fa-git">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-left"><a><i class="fa fa-youtube-play">&nbsp;&nbsp;</i></a></span>
+                  <span class="pull-right"><i class="fa fa-phone"></i>&nbsp;9728431710</span>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <!-- panel ending -->
+
 
           </div>
 
@@ -290,13 +317,6 @@
                       <div class="row">
                         <div class="col-lg-6">
                           <div class="list-group">
-                            <div class="list-group-item">
-                              <i class="fa fa-user fa-fw"></i> Sai Kiran
-                              <span class="pull-right text-muted small">
-                                <em>9728431710</em>
-                              </span>
-                            </div>
-
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Mukesh Agrawal
                               <span class="pull-right text-muted small">
@@ -353,7 +373,12 @@
                         </div>
                         <div class="col-lg-6">
                           <div class="list-group">
-
+                            <div class="list-group-item">
+                              <i class="fa fa-user fa-fw"></i>Akanksha Shukla
+                              <span class="pull-right text-muted small">
+                                <!-- <em>9728430368</em> -->
+                              </span>
+                            </div>
                             <div class="list-group-item">
                               <i class="fa fa-user fa-fw"></i>Sonali Kashyap
                               <span class="pull-right text-muted small">
