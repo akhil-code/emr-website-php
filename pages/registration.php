@@ -5,7 +5,7 @@
     $_SESSION["siteVisited"] = true;
     // include '../php/siteViewIncrementer.php';
     include $_SERVER["DOCUMENT_ROOT"].'/php/siteViewIncrementer.php';
-    
+
   }
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
@@ -94,12 +94,10 @@
             <div class="panel-body">
               <div class="col-lg-6">
                 <p>
-                  <strong>Note</strong>: Students already registered for the workshop package <strong>need not register again</strong> and can directly come to the workshop.<br>
-                  <br>
-                  <strong>Venue</strong>: L - Block (ECE Dept.)<br>
-                  <strong>Dates</strong>: 8th to 11th Feb, 2018<br>
-                  <strong>Timings</strong>: 8th and 9th Feb (5 P.M - 7 P.M), 10th and 11th Feb (10 A.M - 5 P.M)<br>
-                  <strong>Registration Fee</strong>: Rs.150/-<br><br>
+                  <strong>Venue</strong>: Will be anounced soon<br>
+                  <strong>Dates</strong>: Will be anounced soon<br>
+                  <strong>Timings</strong>: Will be anounced soon<br>
+                  <strong>Registration Fee</strong>: Will be anounced soon<br><br>
                   <span style="color:red; font-size:25px;"> *</span> fields are mandatory.
                   <br><br>
                 </p>
@@ -140,18 +138,9 @@
                     </label>
                   </div>
 
-                  <div class="form-group">
-                    <label>Have you attended Introductory Image Processing Workshop?<span style="color:red;"> *</span></label>
-                    <label class="radio-inline">
-                      <input name="hasAttended" value="Yes" id="Yes" type="radio">Yes
-                    </label>
-                    <label class="radio-inline">
-                      <input name="hasAttended" value="No" id="No" type="radio">No
-                    </label>
-                  </div>
 
                   <div class="form-group">
-                    <label>Queries (optional)</label>
+                    <label>Queries</label>
                     <textarea class="form-control" rows="4" id="message" name="Message"></textarea>
                   </div>
 

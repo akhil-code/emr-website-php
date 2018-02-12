@@ -4,7 +4,7 @@
     $_SESSION["siteVisited"] = true;
     // include '/php/siteViewIncrementer.php';
     include $_SERVER["DOCUMENT_ROOT"].'/php/siteViewIncrementer.php';
-    
+
   }
   header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
   header("Cache-Control: post-check=0, pre-check=0", false);
@@ -95,7 +95,7 @@
               <a href="registration.php">
                 <div class="well well-sm" style="background: #f2f2f2;">
                   <span class="pull-left">
-                    <strong>Register</strong> to our upcoming Workshop: <strong>Digital Image Processing</strong> (Part-2)
+                    <strong>Register</strong> to our upcoming Workshop: <strong>Internet of Things</strong>
                   </span>
                   <!-- <span class="pull-left"><strong>(University Design Contest’15 First Prize)</strong></span> -->
                   <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
