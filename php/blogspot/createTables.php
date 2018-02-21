@@ -4,14 +4,13 @@
   // creating table users
   $sql = "
     CREATE TABLE users(
-    user_id INT,first_name varchar(255),last_name varchar(255),
-    email varchar(255),bio TEXT,mobile varchar(15),date_of_birth DATE)";
+    user_id INT,user_name varchar(255),email varchar(255),
+    bio TEXT,mobile varchar(15),date_of_birth DATE)";
   createTable($conn,$sql);
 
   // creating table tags
   $sql = "
-    CREATE TABLE tags(
-    tag_id INT,tag_name varchar(255))";
+    CREATE TABLE tags(tag_id INT,tag_name varchar(255),clicks INT)";
   createTable($conn,$sql);
 
   // creating table posts
